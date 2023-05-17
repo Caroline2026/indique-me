@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Baskerville:ital@0;1&family=Lora&family=Merriweather&family=Poppins&family=Roboto&family=Roboto+Slab:wght@400;500&family=Rubik+Glitch&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'poppins',  sans-serif;
+}
+@media screen {
+  
+  
+}
+@media only screen ( max-width:1280px){
+  body{
+    background-color:  #EBE3F3;
+  }
+}
+  body{
+    background-color:  #EBE3F3;
+  }
+
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+
+}
+.corpo{
+  position: relative;
+  width: 980px;
+  height: 410px;
+  background: #7952acb0;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0,25);
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  display: flex;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 78px;
+  
+
+}
+img{
+  left: 142px;
+  padding: 70px;  
+}
+.inputbox {
+  position: relative;
+  display: inline;
+  justify-content: right;
+  align-items: center;
+  padding: 10px 9px;
+  
+}
+
+input{
+  width: 399px;
+  height: 35px;
+  
+
+}
+#esquece{
+  width: 20px;
+  height: 12px;
+}
+button{
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 258px;
+  top: 37px;
+  border-radius: 25px;
+  border: none;
+
+
+
+}
+label{
+  font-size: x-small;
+  padding: 25px;
+}
